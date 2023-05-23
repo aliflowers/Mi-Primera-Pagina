@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Indice</title>
+  <link rel="stylesheet" href="./style.css"> <!--//Este es el enlace para el archivo de ccs -->
+</head>
+
+<body>
+
+  <div class="container-nav">
+    <nav class="navbar">
+      <a href="#" class="brand">Mi página web</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </div>
+
+  <div class="container">
+    <button onclick="showAlert()">¡Haz clic en mi!</button>
+    <h1>Bienvenidos a mi primer Website!</h1>
+    <div class="row">
+      <div class="column">
+        <h2>¿Quien soy y Que estoy haciendo aqui?</h2>
+        <p>Soy Ali Flores, ¡y esta es mi primera página web!</p>
+        <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente
+          atrapantes y funcionales.</p>
+      </div>
+      <div class="column">
+        <h2>¿Que aprendere aqui?</h2>
+        <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+          Estos lenguajes me ayudarán a crear una base sólida en el desarrollo
+          web front-end.</p>
+
+        <p>¡Muchas Gracias!</p>
+      </div>
+    </div>
+  </div>
+
+
+  <form id="myForm"> <!-- Este codigo debe ir antes de la llamada del archivo Js -->
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
